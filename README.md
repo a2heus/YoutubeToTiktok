@@ -1,29 +1,7 @@
-```markdown
 # YoutubeToTiktok
 
 A **Python** script that takes a long YouTube video, splits it into multiple 75-second TikTok-friendly segments (vertical format), and overlays a "satisfying" video at the bottom to capture attention. This longer-than-one-minute approach can help with monetization by maintaining viewer interest.
 
-## Features
-
-1. **YouTube Download**  
-   - Downloads the full YouTube video from a given URL.
-
-2. **Automatic Splitting**  
-   - Splits the downloaded video into 75-second segments (configurable in the script).
-
-3. **Vertical TikTok Format**  
-   - Each segment is adapted to a 1080×1920 vertical resolution.
-   - A background is added so the content fits a portrait layout.
-
-4. **Satisfying Video Overlay**  
-   - A secondary “satisfying” video (e.g., `sat.mp4`) is placed at the bottom to keep viewers engaged.
-   - Particularly useful if you’re targeting more than one minute of watch time for monetization or algorithmic boosts.
-
-5. **Auto-Upload & Discord Webhook**  
-   - Each generated segment is uploaded to a temporary file service (`tmpfiles.org` by default).
-   - The resulting URL is sent to a Discord webhook for easy sharing or logging.
-
----
 
 ## Requirements
 
@@ -42,6 +20,7 @@ Install them via:
 ```bash
 pip install -r requirements.txt
 ```
+
 *(Or manually: `pip install pytube moviepy colorama requests`)*
 
 ---
