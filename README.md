@@ -115,14 +115,4 @@ pip install -r requirements.txt
 
 Feel free to open Pull Requests or Issues on GitHub if you have improvements or find bugs.
 
----
-
-## License
-
-*(Choose or replace with your preferred license, for example MIT.)*
-
----
-
-**Author**: [YourName / GitHubHandle](https://github.com/YourUsername)  
-Enjoy creating engaging TikTok highlights from long YouTube videos!
-```
+## Dont forget to star this repo if you like it <3
